@@ -1,11 +1,14 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "@rocketseat/eslint-config/react"
+    "@rocketseat/eslint-config/react",
+    "next"
   ],
   "rules": {
     "camelcase": "off",
     "no-unused-vars": "off",
-    "no-undef": "off"
+    "no-undef": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }

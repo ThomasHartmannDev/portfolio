@@ -1,5 +1,5 @@
-import { ButtonHTMLAttributes } from "react"
-import { cn } from "../../libs/utils"
+import { ButtonHTMLAttributes } from 'react'
+import { cn } from '@/app/libs/utils'
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 
 export const Button = ({children, className, ...props}: ButtonProps) =>{

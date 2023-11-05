@@ -1,4 +1,4 @@
-import { HeroSection } from "./components/pages/home/hero-section";
+import { HeroSection } from '@/app/components/pages/home/hero-section'
 
 export default async function Home() {
   return (
