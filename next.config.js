@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['media.graphassets.com'],
+    domains: ['media.graphassets.com','t4.ftcdn.net'],
   },
   eslint: {
     ignoreDuringBuilds: true,
