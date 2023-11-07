@@ -11,10 +11,6 @@ const NAV_ITEMS = [
     {
         label:'Projects',
         href:'/Projects'
-    },
-    {
-        label:'Apps',
-        href:'/Apps'
     }
 ]
 
