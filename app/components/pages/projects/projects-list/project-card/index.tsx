@@ -8,7 +8,7 @@ export const ProjectCard = () =>{
                 width={380} 
                 height={200} 
                 src='https://t4.ftcdn.net/jpg/05/07/58/41/360_F_507584110_KNIfe7d3hUAEpraq10J7MCPmtny8EH7A.jpg'
-                alt = 'Thumbnail do projeto'
+                alt = 'Project Thumbnail'
                 unoptimized
                 className="w-full h-full object-cover group-hover:scale-110 duration-500 transition-all"
             />
@@ -16,7 +16,7 @@ export const ProjectCard = () =>{
 
             <div className="flex-1 flex flex-col p-8">
                 <strong className="font-medium text-gray-50/90 group-hover:text-purple-500 transition-all">Project Name</strong>
-                <p className="mt-2 text-gray-400 line-clamp-4 md-auto">Breve Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugiat eligendi, ratione quasi nihil illo assumenda optio consectetur tempore quibusdam!</p>
+                <p className="mt-2 text-gray-400 line-clamp-4 md-auto">Little description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugiat eligendi, ratione quasi nihil illo assumenda optio consectetur tempore quibusdam!</p>
                 <span className="text-gray-300 text-sm font-medium block truncate mt-4">Next.js, Next Auth, Stitches, Radix, TypeScript, Prisma, React Query</span>
             </div>
         </div>

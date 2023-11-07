@@ -25,7 +25,7 @@ export const ProjectCard = () =>{
                         alt=""
                         src='/images/icons/project-title-icon.svg'
                     /> 
-                    Titulo
+                    Title
                 </h3>
 
                 <p className="text-gray-400 my-6">
@@ -41,7 +41,7 @@ export const ProjectCard = () =>{
                     <TechBadge name="Next.js"/>
                 </div>
                 <Link href='/projects/project'>
-                    Ver Projeto
+                    See Project
                     <HiArrowNarrowRight/>
                 </Link>
             </div>

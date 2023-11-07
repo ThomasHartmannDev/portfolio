@@ -12,7 +12,7 @@ export const PageIntroduction = () => {
 
             <div className="flex flex-col items-center justify-center">
                 <p className="text-gray-400 text-center max-w-[640px] my-6 text-sm sm:text-base">
-                    Aqui vc terá projetos que eu desenvolvi, navegue a contade para explorar os projetos e ver como foram criados, olhar o codigo, tecnologias utilizadas eas funcionalidades implementadas. 
+                    Here you will have projects that I developed, browse freely to explore the projects and see how they were created, look at the code, technologies used and features implemented.
                 </p>
                 <Link href='/'>
                     <HiArrowNarrowLeft size={20}/>

@@ -22,8 +22,8 @@ export const HeroSection = ({homeInfo}: HomeSectionProps) => {
         <section className='w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]'>
             <div className='container flex items-start justify-between flex-col-reverse lg:flex-row'>
                 <div className='w-full lg:max-w-[530px]'>
-                    <p className='text-mono text-purple-400'>Olá, meu nome é</p>
-                    <h1 className='text-4xl font-medium mt-2'>Thomas Hartmann</h1>
+                    <p className='text-mono text-purple-400'>Hi, my name is</p>
+                    <h1 className='text-4xl font-medium mt-2 hover:text-purple-500 transition-all'>Thomas Hartmann</h1>
                     <div className='text-gray-400 my-6 text-sm sm:text-base'>
                         <RichText content={homeInfo.introduction.raw}/>
                     </div>
@@ -34,7 +34,7 @@ export const HeroSection = ({homeInfo}: HomeSectionProps) => {
                     </div>
                     <div className='mt-6 lg:mt10 flex sm:items-center sm:gap-5 flex-col sm:flex-row'>
                         <Button className=' w-max shadow-button' onClick={handleContact}>                        
-                            Entre em contato 
+                            Contact me
                             <HiArrowNarrowRight size={18}/> 
                         </Button>
                         <div className='text-gray-600 text-2xl flex items-center h-20 gap-3'>
