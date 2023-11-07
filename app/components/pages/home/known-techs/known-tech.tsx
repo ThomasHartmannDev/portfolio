@@ -7,7 +7,7 @@ import { ReactNode } from "react"
 type KnownTechProps = {
     tech: IKnownTech
 }
-export const KnownTech = ({tech}:KnownTechProps) =>{
+export const KnownTech = ({tech}:KnownTechProps) =>{ 
     const relativeTime = getRelativeTimeString(new Date(tech.startDate), 'en')
 
     .replace('ago','')
