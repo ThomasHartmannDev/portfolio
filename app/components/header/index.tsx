@@ -10,12 +10,8 @@ const NAV_ITEMS = [
     },
     {
         label:'Projects',
-        href:'/Projects'
+        href:'/projects'
     },
-    {
-        label:'Apps',
-        href:'/Apps'
-    }
 ]
 
 
