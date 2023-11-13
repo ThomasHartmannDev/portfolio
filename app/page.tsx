@@ -7,7 +7,7 @@ import { HomePageData } from './types/page-info'
 import { NoExperience } from './components/pages/home/workExperience/noExperience'
 
 const getPageData = async ():Promise<HomePageData> =>{
-    const query = `
+  const query = `
     query PageInfoQuery {
       page(where: {slug: "home"}) {
         introduction {

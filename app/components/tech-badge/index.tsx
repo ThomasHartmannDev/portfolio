@@ -1,11 +1,19 @@
-type techBadgeProps = {
-    name:string
+'use client'
+
+import { motion } from 'framer-motion'
+import { ComponentProps } from 'react'
+
+type TechBadgeProps = ComponentProps<typeof motion.span> & {
+  name: string
 }
 
-export const TechBadge = ({name}:techBadgeProps) => {
-    return(
-        <span key={`${name}`} className='text-purple-400 bg-purple-900/80 text-sm py-1 px-3 rounded-lg'>
-            {name}
-        </span>
-    );
+export const TechBadge = ({ name, ...props }: TechBadgeProps) => {
+  return (
+    <motion.span
+      className="text-purple-400 bg-purple-900/80 text-sm py-1 px-3 rounded-lg"
+      {...props}
+    >
+      {name}
+    </motion.span>
+  )
 }
