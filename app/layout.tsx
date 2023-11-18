@@ -6,6 +6,7 @@ import { ContactForm } from './components/contact-forms'
 import { Footer } from './components/footer'
 import { BackToTop } from './components/back-to-top'
 import { Toaster } from './components/toaster'
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -40,7 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
         <ContactForm/>
         <Footer/>
-        
+        <Analytics />
       </body>
     </html>
   )
